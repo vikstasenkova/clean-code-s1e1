@@ -20,9 +20,11 @@
   }
   
   @media (max-width:68px) {
+
     .header {
       text-align: center;
     }
+    
   }
   .main {
     display: block;
