@@ -5,35 +5,35 @@
   }
   
   .header {
-    width:500px;
+    width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
   }
   
   .header__img {
-    width:100%;
+    width: 100%;
   }
   
   .header__link {
     font-family: fantasy, cursive;
   }
   
-  @media (max-width:68px) {
+  @media (max-width: 68px) {
 
     .header {
       text-align: center;
     }
-    
+
   }
   .main {
     display: block;
-    width:500px;
+    width: 500px;
     margin: 0 auto 0;
   }
   
   .task__label {
-    width:56%;
+    width: 56%;
     display: inline-block;
     flex-grow: 1;
     padding-left: 10px;
@@ -47,10 +47,11 @@
   }
   
   .task__btn {
-    background: none;  border: 0px;
+    background: none;  
+    border: 0px;
     color: #888;
     font-size: 15px;
-    width:60px;
+    width: 60px;
     font-family: Lato, sans-serif;
     cursor: pointer;
     outline: none;
@@ -140,7 +141,7 @@
   
   .task.edit-mode .task__input {
     display: inline-block;
-    width:224px;
+    width: 224px;
   }
   
   .task.edit-mode .task__label {
